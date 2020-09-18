@@ -10,14 +10,11 @@ How to build the program:
 
 If you just want to run the executable from the root repository, you can use Cabal's new-run subcommand: `cabal new-run strnth <args>`
 
-***
-
 # How to use the strnth command
 
 ```bash
 strnth <n> <str>
 ```
-
 - `<n>`: number of times to yeet the string into itself
 - `<str>`: the string to yeet into itself
 
@@ -30,7 +27,7 @@ Will produce:
 ```latex
 $\text{yeet}^{\text{yeet}^{\text{yeet}}}$
 ```
-
+***
 ```bash
 strnth 4 yeet yoot
 ```
@@ -38,7 +35,7 @@ Will produce:
 ```latex
 $\text{yeet}^{\text{yeet}^{\text{yeet}^{\text{yeet}}}}$
 ```
-
+***
 ```bash
 strnth 4 "yeet yoot"
 ```
@@ -46,7 +43,7 @@ Will produce:
 ```latex
 $\text{yeet yoot}^{\text{yeet yoot}^{\text{yeet yoot}^{\text{yeet yoot}}}}$
 ```
-
+***
 ```bash
 strnth 20 10
 ```
@@ -54,5 +51,5 @@ Will produce:
 ```latex
 $\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}^{\text{10}}}}}}}}}}}}}}}}}}}}$
 ```
-
+***
 Enjoy your yeet time lmao

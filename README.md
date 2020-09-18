@@ -18,8 +18,8 @@ If you just want to run the executable from the root repository, you can use Cab
 strnth <n> <str>
 ```
 
-`<n>`: number of times to yeet the string into itself
-`<str>`: the string to yeet into itself
+- `<n>`: number of times to yeet the string into itself
+- `<str>`: the string to yeet into itself
 
 Examples:
 
